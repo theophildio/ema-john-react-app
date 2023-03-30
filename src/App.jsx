@@ -5,10 +5,10 @@ import Shop from './components/Shop/Shop'
 function App() {
   
   return (
-    <main className="App">
+    <div className="App">
       <Header></Header>
       <Shop></Shop>
-    </main>
+    </div>
   )
 }
 
