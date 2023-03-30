@@ -8,12 +8,23 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 45px;
-  padding: 120px 0 0 104px;
+  padding: 120px 0 120px 104px;
 }
 
 .orders {
   background: rgba(255, 153, 0, 0.3);
-  text-align: center;
-  padding: 30px 10px;
+  padding: 30px 20px;
   height: 100vh;
+}
+
+.orders h5 {
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.cart-details p {
+  margin-bottom: 20px;
 }
